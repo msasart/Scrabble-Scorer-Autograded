@@ -47,6 +47,7 @@ function simpleScorer(word) {
     return Number(score);
 };
 
+//The vowelBonusScorer loops through the length of the word to search for vowels.
 function vowelBonusScorer(word) {
     let vowelScore = 0;
     vowels = ["a", "e", "i", "o", "u"];
